@@ -1,7 +1,9 @@
 {
-    "framework": "jasmine2",
-    "src_files": [
+  "framework": "jasmine2",
+  "src_files": [
     "bubble.js",
-    "bubble.spec.js"
-    ]
+    "bubble.spec.js",
+    "mergesort.js",
+    "mergesort.spec.js"
+  ]
 }
