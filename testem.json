@@ -1,0 +1,7 @@
+{
+    "framework": "jasmine2",
+    "src_files": [
+    "bubble.js",
+    "bubble.spec.js"
+    ]
+}

@@ -1,0 +1,32 @@
+function bubbleSort(array) {
+
+    let sortHappened;
+    let len = array.length;
+
+    for (let i = 0; i < len; i++) {        
+
+        if (sortHappened === false || len === 0) {
+            
+            return array;
+        }
+
+        sortHappened = false;
+
+        for (let j = 0; j < len - 1; j++) {
+            
+            if (array[j] > array[j+1]) {
+                let tmp = array[j]
+                array[j] = array[j+1];
+                array[j+1] = tmp;
+
+                sortHappened = true;
+            }
+        }
+
+    }
+
+    return array;
+
+}
+
+
